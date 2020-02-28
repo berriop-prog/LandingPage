@@ -1,0 +1,191 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para RMES-62.5%= 10 px de 16px**/
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+ font-family:'Roboto Slab';
+ background-color: lightgoldenrodyellow;
+}
+/*Globa*/
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+header {
+    margin: 0 auto;
+    width:100%; 
+}
+
+#header-img {
+height: 10vh;
+}
+
+.barra-header {
+    background-color: rgb(122, 118, 77);
+    display: flex;   
+   align-items: center;   
+   margin-top: 0;   
+ }
+
+#header {
+    width: 100rem;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;      
+}
+
+/*Navegación*/
+
+.nav-bar a:hover{
+    color: rgb(236, 100, 20);
+}
+
+.nav-bar a {
+    color:rgb(201, 169, 64); 
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 20px;   
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    padding-right: 30px;
+	}
+	
+nav ul li {
+	display: inline-block;
+    line-height: 40px;
+   
+}
+
+.barra-header h1 {
+    color: rgb(201, 169, 64);    
+    line-height: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 2rem ;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+main{
+    width: 80rem;
+}
+
+#hero {
+    text-align: center;
+    margin: 15rem 0 6rem 0;
+}
+
+/*SECCION*/
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width:10rem;
+    height:10rem;
+    margin: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.icon h2 {
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+
+#video {
+ margin: 10rem;
+}
+.anuncios{  
+    display: flex;    
+ }
+
+.product {
+    width: 40rem;
+    height: 40rem;
+    padding: 2rem;
+    border: 1px black;
+    margin: 6rem;
+    background-color: rgb(216, 190, 74, 0.3);
+    
+align-items: center;
+}
+
+.level h2 {
+    font-size: 4rem;    
+}
+
+/*botones*/ 
+input {
+    border: 1px #000;
+    padding: 10px;
+    font-size: 1.6em;
+    width: 100%;
+  }
+  
+.btn{
+    color: #333333;
+    background-color: rgba(243, 166, 22, 0.74);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    width: 100%;
+   }
+
+.btn:hover {
+    cursor: pointer;  
+}
+
+.site-footer{
+    margin: 0;
+    background-color: rgb(122, 118, 77);
+}
+.navegacion-foooter {
+    padding: 3rem 2rem;
+    margin: 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    display: flex ;
+    justify-content: space-around;
+}
+
+.copyright{
+   
+    margin: 0 0 1rem 0;
+    color: rgb(163, 122, 45);
+    display: flex ;
+    justify-content: flex-end;
+}
+
